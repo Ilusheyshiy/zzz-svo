@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "moody_god",
+  "version": "${version}",
+  "name": "Капризный Бог",
+  "description": "Каждые 5 минут к вам приходит Бог. Правил вы не знаете. Овец он ненавидит.",
+  "authors": ["Claude (бесплатно, как обычно)"],
+  "license": "CC0-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["moodygod.GodMod"],
+    "client": ["moodygod.client.GodClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
